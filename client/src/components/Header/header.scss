@@ -1,0 +1,55 @@
+@import '../../assets/scss/variables';
+
+.header{
+    box-shadow: $btm-shadow ;
+    .brand{
+        display: flex;
+        align-items: center;
+
+        h1{
+            font-weight: 800;
+            color : $secondary;
+        }
+    }
+ 
+    .search{
+            width: 100%;
+            position: relative;
+
+            input{
+                width: 100%;
+                padding: 6px 15px ;
+                border-radius: 100px;
+            }
+            .icon{
+                position: absolute;
+                right: 30px;
+                bottom: 6px;
+            }
+    }
+
+    .nav-right{
+        display: flex;
+        justify-content: end;
+    }
+
+    .menu{
+        background-color: #fff;
+        padding: 15px 10px;
+        border-radius: 20px;
+        z-index: 3;
+        transform: translateY(40%);
+
+        .link{
+            color: black;
+            font-weight: 500;
+            font-size: 1.4rem;
+            transition: all ease-in-out 0.2s;
+
+            &:hover{
+                color: $secondary;
+                transform: translateY(-7px);
+            }
+        }
+    }
+}

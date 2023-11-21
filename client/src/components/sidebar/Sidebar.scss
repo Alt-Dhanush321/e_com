@@ -1,0 +1,36 @@
+@import '../../assets/scss/variables';
+
+.sidebar{
+    height: 600px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+
+    h2{
+        font-size: 1.8rem;
+        font-weight: 600;
+        position: relative;
+
+        &::after{
+            content: '';
+            position: absolute;
+            width: 50%;
+            height: 3px;
+            bottom: 40%;
+            margin-left: 10px;
+            background-image: linear-gradient(to left , rgba(41, 228, 69, 0.096),rgba(41, 228, 69, 0.415),rgb(41,228,69));
+        }
+    }
+
+    .search{
+        width: 100%;
+        padding: 5px 5px;
+        border-radius: 10px;
+        margin: 10px 0;
+    }
+    button{
+        width: 100%;
+        padding: 5px 5px;
+        border-radius: 10px;
+    }
+}

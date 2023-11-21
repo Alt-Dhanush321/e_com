@@ -1,0 +1,13 @@
+@import '../../assets/scss/variables';
+
+ul{
+    .icon{
+        font-size: 1.4rem;
+        transition: all 0.2s ease-in-out;
+        &:hover{
+            color: $secondary;
+            transform: translateY(-7px);
+        }
+    }
+    
+}

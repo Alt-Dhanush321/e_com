@@ -1,0 +1,22 @@
+@import '../../assets/scss/variables';
+
+.service-box{
+    background-color: #fff;
+    margin: 15px auto;
+    padding: 25px;
+    border-radius: 20px;
+
+    .items{
+        .icon{
+            color: $secondary;
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        h2{
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+    }
+}

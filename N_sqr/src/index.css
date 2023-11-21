@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-color: #F5F7F6;
+}
+
+input:focus{
+    outline: none;
+}
+
+/* header section start*/
+
+
+
+/* header section end*/
